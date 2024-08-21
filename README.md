@@ -1,5 +1,5 @@
 
-# Example of API Tests for Fake Store API on TypeScript
+# Examples of API Tests for Fake Store API on TypeScript
 
 This repository contains a suite of tests for the Fake Store API. It is designed as an educational example to demonstrate and practice various testing technologies and methodologies using TypeScript.
 
