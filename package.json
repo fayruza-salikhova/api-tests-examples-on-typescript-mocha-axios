@@ -1,0 +1,33 @@
+{
+  "name": "api-tests-examples-on-typescript-mocha-axios",
+  "version": "1.0.0",
+  "description": "This repository contains a suite of tests for the Fake Store API. It is designed as an educational example to demonstrate and practice various testing technologies and methodologies using TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start-prod": "node dist/index.js",
+    "start": "ts-node src/index.ts",
+    "test": "mocha --require ts-node/register src/**/*.spec.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "8.4.1",
+    "@types/axios": "0.14.0",
+    "@types/chai": "4.3.18",
+    "@types/mocha": "10.0.7",
+    "@types/node": "22.5.0",
+    "axios": "1.7.5",
+    "chai": "4.5.0",
+    "cross-env": "7.0.3",
+    "mocha": "10.7.3",
+    "mochawesome": "7.1.3",
+    "properties-reader": "2.3.0",
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4",
+    "zod": "^3.23.8"
+  }
+}
